@@ -26,11 +26,5 @@
     ra = rebase --abort
 [color]
         ui = true
-[user]
-        name = neversay
-        email = neversay@verizonmedia.com
-[filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
 [push]
 	default = matching
